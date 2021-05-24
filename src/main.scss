@@ -1,0 +1,14 @@
+//Import abstracts
+@import "scss/abstracts/variables";
+@import "scss/abstracts/mixin";
+
+//RESET THE PAGE BASICS
+@import "scss/base/reset";
+
+//Imprt scss layout
+@import "scss/layout/grid";
+
+//Import scss components
+@import "scss/component/index";
+//Import utils
+@import "scss/utils/utils";

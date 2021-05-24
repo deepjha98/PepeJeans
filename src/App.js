@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./main.scss";
 
+// IMPORT THE COMPONENTS
+import TopHeader from "./components/header";
+import Tracking from "./components/Tracking";
+import DeliveryFunctions from "./components/DeliveryFunctions";
+import OrderDetails from "./components/orderDetails";
+//////////////////////////////////////////
+import PantsProductImg from "./resources/PantsProductImg.png";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <TopHeader />
+      <Tracking
+        arrivingOn={"July"}
+        orderStatus={"transit"}
+        arrivingFrom={"Mumbai"}
+      />
+      <DeliveryFunctions />
+      <OrderDetails
+        description={"Men Blue Skinny Fit Mid-Rise Clean..."}
+        size={30}
+        quantity={1}
+        ProductName={"Pepe jeeans"}
+        price={"5,845"}
+        PantsProductImg={PantsProductImg}
+      />
     </div>
   );
 }
-
+//////////////////////////////////////////
 export default App;

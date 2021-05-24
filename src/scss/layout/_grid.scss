@@ -1,0 +1,12 @@
+.main {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-rows: auto 55vh max-content 20vh 40vh;
+  grid-gap: 1rem;
+  font-family: "Roboto", "Courier New", Courier, monospace;
+  & > * {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  }
+}
