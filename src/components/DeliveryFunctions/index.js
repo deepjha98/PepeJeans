@@ -15,7 +15,9 @@ const DeliveryFunctions = () => {
               Reschedule The Delivery
             </h6>
           </span>
-          <FiChevronRight />
+          <span className="clickable--link">
+            <FiChevronRight />
+          </span>
         </div>
         <div className="delivery__functions--common delivery__functions--pickup">
           <span className="delivery__functions--span">
@@ -24,7 +26,9 @@ const DeliveryFunctions = () => {
               Pick up from the last Hub / Courier
             </h6>
           </span>
-          <FiChevronRight />
+          <span className="clickable--link">
+            <FiChevronRight />
+          </span>
         </div>
         <div className="delivery__functions--common delivery__functions-updates">
           <span className="delivery__functions--span">
@@ -33,7 +37,9 @@ const DeliveryFunctions = () => {
               Get delivery updates
             </h6>
           </span>
-          <FiChevronRight />
+          <span className="clickable--link">
+            <FiChevronRight />
+          </span>
         </div>
       </div>
     </div>

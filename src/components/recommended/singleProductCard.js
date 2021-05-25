@@ -1,13 +1,9 @@
 import React from "react";
 //////////////////////////
 class SingleProduct extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
-    console.log("this.props.product");
     return (
-      <div className="product-card">
+      <div className="product-card" key={this.props.product.id}>
         <div className="product-card__imgbox">
           <img
             src={this.props.product.productImage}

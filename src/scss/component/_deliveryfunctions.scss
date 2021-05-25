@@ -30,14 +30,23 @@
       align-items: center;
       font-family: Roboto;
       font-style: normal;
-      font-weight: 400;
-      font-size: 1.3rem;
-      line-height: 1.5rem;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 15px;
       color: #020235;
       opacity: 0.8;
       &--text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+        color: #020235;
+        opacity: 0.8;
         padding: 0.5rem 0.8rem;
       }
     }
   }
+}
+.clickable--link {
+  cursor: pointer;
 }

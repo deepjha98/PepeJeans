@@ -2,7 +2,7 @@
   width: 100%;
   display: grid;
   align-items: center;
-  grid-template-rows: auto 55vh max-content 22vh 50vh;
+  grid-template-rows: auto 55vh max-content max-content 50vh;
   grid-gap: 1.5rem;
   font-family: "Roboto", "Courier New", Courier, monospace;
   & > * {

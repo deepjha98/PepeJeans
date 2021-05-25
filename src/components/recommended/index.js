@@ -9,8 +9,8 @@ const Recommended = () => {
         <h6 className="recommended--title--text">You may also like</h6>
       </div>
       <div className="recommended__products">
-        {recommendedData.map((product) => (
-          <SingleProduct product={product} />
+        {recommendedData.map((product, index) => (
+          <SingleProduct product={product} key={index} />
         ))}
       </div>
     </div>
