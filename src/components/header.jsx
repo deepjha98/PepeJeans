@@ -3,7 +3,7 @@ import HeaderImg from "../resources/HeaderImg.png";
 /////////////////////////////////
 const TopHeader = () => {
   return (
-    <div className="header">
+    <div id="header" className="header">
       <div className="img__container">
         <img src={HeaderImg} alt="PepeJeans" className="img__container--img" />
       </div>

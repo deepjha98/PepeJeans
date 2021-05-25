@@ -5,6 +5,7 @@ import TopHeader from "./components/header";
 import Tracking from "./components/Tracking";
 import DeliveryFunctions from "./components/DeliveryFunctions";
 import OrderDetails from "./components/orderDetails";
+import Recommended from "./components/recommended";
 //////////////////////////////////////////
 import PantsProductImg from "./resources/PantsProductImg.png";
 function App() {
@@ -25,6 +26,7 @@ function App() {
         price={"5,845"}
         PantsProductImg={PantsProductImg}
       />
+      <Recommended />
     </div>
   );
 }

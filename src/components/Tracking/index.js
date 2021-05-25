@@ -18,7 +18,7 @@ const Tracking = ({ arrivingOn, orderStatus, arrivingFrom }) => {
           <h4 className="tracking__heading--date">Arriving on {arrivingOn}</h4>
           <span className="tracking__share">
             <RiShareForwardFill />
-            <a href="#" className="tracking__share--link">
+            <a href="#header" className="tracking__share--link">
               Share the link
             </a>
           </span>
@@ -27,20 +27,20 @@ const Tracking = ({ arrivingOn, orderStatus, arrivingFrom }) => {
           <h6 className="tracking__location">Shipped from {arrivingFrom}</h6>
           <span className="tracking__status">
             <RiInformationLine />{" "}
-            <h7 className="tracking__status--text">Status of the package </h7>{" "}
+            <h6 className="tracking__status--text">Status of the package </h6>{" "}
             <RiArrowDownSLine />
           </span>
         </div>
       </div>
       <div className="tracking__buttons">
         <a
-          href="#"
+          href="#header"
           className="tracking__buttons--link tracking__buttons--details"
         >
           View Shipment details
         </a>
         <a
-          href="#"
+          href="#header"
           className="tracking__buttons--link tracking__buttons--actions"
         >
           Take actions
